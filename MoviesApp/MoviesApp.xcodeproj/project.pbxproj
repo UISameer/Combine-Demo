@@ -15,6 +15,8 @@
 		DC602BAD2B42A74100572CB6 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC602BA72B42A74100572CB6 /* MoviesViewModel.swift */; };
 		DC602BAE2B42A74100572CB6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC602BA82B42A74100572CB6 /* Network.swift */; };
 		DC602BAF2B42A74100572CB6 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC602BAA2B42A74100572CB6 /* MoviesView.swift */; };
+		DCC37F812B445F1500D1EE2B /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC37F802B445F1500D1EE2B /* MovieDetailViewModel.swift */; };
+		DCC37F832B44615600D1EE2B /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC37F822B44615600D1EE2B /* MovieDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		DC602BA72B42A74100572CB6 /* MoviesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
 		DC602BA82B42A74100572CB6 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		DC602BAA2B42A74100572CB6 /* MoviesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		DCC37F802B445F1500D1EE2B /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+		DCC37F822B44615600D1EE2B /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				DC602BA72B42A74100572CB6 /* MoviesViewModel.swift */,
+				DCC37F802B445F1500D1EE2B /* MovieDetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -107,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				DC602BAA2B42A74100572CB6 /* MoviesView.swift */,
+				DCC37F822B44615600D1EE2B /* MovieDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +200,8 @@
 				DC602BAB2B42A74100572CB6 /* Constants.swift in Sources */,
 				DC602BAF2B42A74100572CB6 /* MoviesView.swift in Sources */,
 				DC602BAC2B42A74100572CB6 /* Models.swift in Sources */,
+				DCC37F812B445F1500D1EE2B /* MovieDetailViewModel.swift in Sources */,
+				DCC37F832B44615600D1EE2B /* MovieDetailView.swift in Sources */,
 				DC602BAD2B42A74100572CB6 /* MoviesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
